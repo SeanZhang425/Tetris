@@ -33,7 +33,7 @@ The JavaFX application should be run on IntelliJ IDEA. To download and execute t
   
 * Go to File -> Project Structure -> Libraries, and add the lib folder of the JavaFX 21 SDK as a library.
   
-* Go to Run -> Edit Configurations, and add new configuration. Set Main class to the class labeled "App" (i.e. FlappyBirdApp, App2048). Add these VM Options to the configuration (replace path with the actual path to JavaFX SDK lib folder):
+* Go to Run -> Edit Configurations, and add new configuration. Set Main class to the class labeled "App". Add these VM Options to the configuration (replace path with the actual path to JavaFX SDK lib folder):
   
   ```
   --module-path /path/to/javafx-sdk-21.0.2/lib --add-modules javafx.controls,javafx.fxml
