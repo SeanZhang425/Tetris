@@ -12,11 +12,6 @@ import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.Queue;
 
-/**
- * Yuchong Zhang
- * July 1 2023
- */
-
 public class TetrisApp extends Application{
 
     @Override
